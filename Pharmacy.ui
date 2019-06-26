@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow1</class>
+ <widget class="QMainWindow" name="MainWindow1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1210</width>
+    <height>781</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image:url(:/newPrefix/wp1931605.jpg)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_checkavailability">
+    <property name="geometry">
+     <rect>
+      <x>834</x>
+      <y>191</y>
+      <width>251</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(:/newPrefix/PicsArt_1539249712352.jpg)</string>
+    </property>
+    <property name="text">
+     <string>CHECK AVAILABILITY</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_makebill">
+    <property name="geometry">
+     <rect>
+      <x>834</x>
+      <y>331</y>
+      <width>251</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(:/newPrefix/PicsArt_1539249712352.jpg)</string>
+    </property>
+    <property name="text">
+     <string>MAKE BILL</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_updatedata">
+    <property name="geometry">
+     <rect>
+      <x>836</x>
+      <y>472</y>
+      <width>251</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(:/newPrefix/PicsArt_1539249712352.jpg)</string>
+    </property>
+    <property name="text">
+     <string>UPDATE DATA</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1210</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="m2.qrc"/>
+ </resources>
+ <connections/>
+</ui>

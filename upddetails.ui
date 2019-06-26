@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>nobj</class>
+ <widget class="QMainWindow" name="nobj">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1392</width>
+    <height>785</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image:url(:/newPrefix/q10.jpg)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_addmedi">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>154</y>
+      <width>251</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(:/newPrefix/PicsArt_1539249712352.jpg)</string>
+    </property>
+    <property name="text">
+     <string>ADD MEDICINE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_delmedi">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>284</y>
+      <width>251</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(:/newPrefix/PicsArt_1539249712352.jpg)</string>
+    </property>
+    <property name="text">
+     <string>DELETE MEDICINE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_updatemedi">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>414</y>
+      <width>251</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(:/newPrefix/PicsArt_1539249712352.jpg)</string>
+    </property>
+    <property name="text">
+     <string>UPDATE DETAILS</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1392</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="m5.qrc"/>
+ </resources>
+ <connections/>
+</ui>
